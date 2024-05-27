@@ -1,0 +1,35 @@
+nav, a{
+    text-align: center;
+    color:brown
+}
+
+header{
+    letter-spacing: 2px;
+}
+
+.carnivoros{
+    background-color: darkred;
+}
+
+.herbivoros{
+    background-color: lightgreen;
+}
+
+.voladores{
+    text-shadow: 2px 2px 4px;
+}
+
+.acuaticos{
+    font-style: italic;
+    color: blue;
+}
+
+#trex{
+    font-size: 24px;
+    color:darkorchid;
+}
+
+#trike{
+    font-weight: bold;
+    text-decoration: underline;
+}
