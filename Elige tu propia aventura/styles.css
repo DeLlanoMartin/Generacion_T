@@ -1,0 +1,29 @@
+body {
+    background-image: url('https://www.shutterstock.com/image-vector/cartoon-night-forest-wood-flying-600nw-2325918095.jpg');
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center center; /* Centra la imagen */
+    background-attachment: fixed; /* Hace que la imagen de fondo sea fija al hacer scroll */
+}
+
+header{
+    margin: 2rem;
+    justify-items: center;
+    color: white;
+    text-align: center;
+}
+
+.narracion{
+    background-color: chocolate;
+    text-align: center;
+    margin:0 auto;
+    width: 40%;
+    padding: 1rem;
+    border-radius: 1rem; /* Redondea los bordes del contenedor */
+}
+
+a:hover{
+    color: white;
+    background-color: #007BFF;
+    border-radius: 15px;
+}
