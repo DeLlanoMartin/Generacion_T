@@ -1,0 +1,30 @@
+.pan{
+    margin:0 auto;
+    background-color: goldenrod;
+    width: 400px;
+    height: 74px;
+}
+
+#salchicha{
+    margin:0 auto;
+    background-color: brown;
+    width: 500px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+#pan_atras{
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom:10px solid coral;
+}
+
+#pan_adelante{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top:10px solid coral;
+}
