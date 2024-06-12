@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        input{
+            height: 2rem;
+        }
+    </style>
+    <script>
+        function num_secreto(){
+            let numeroSecreto = 69
+            var intento = document.getElementById("intento").value;
+
+            if (numeroSecreto>intento){
+                rango= ", el número secreto es mayor que tu intento"
+            }else if(numeroSecreto<intento){
+                rango= ", el número secreto es menor que tu intento"
+            }
+            if(numeroSecreto==intento){
+                resultado = "ganador"
+            } else{
+                resultado = "perdedor" + rango
+            }
+            document.getElementById('lbResultado').innerHTML = resultado;
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <h1>Ingresá un número, quizás lo adivines</h1>
+        <input id="intento" type="number"> <br><br>
+    <input type="button" value="intentar" onclick="num_secreto()"/><br/>
+    </form> <br>
+    <div id= "resultado">
+        <label id="lbResultado"></label>
+    </div>
+</body>
+</html>
